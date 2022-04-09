@@ -1,18 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
+
 @font-face {
     font-family: "Santio bold";
     src: url('../fonts/Santio_bold.otf') format("opentype");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
-
-/* 
+/* ######### RESOURCES START ################## 
 Font: Santio bold, Roboto, Tangerine
 
 font-family: 'Roboto', sans-serif;
 font-family: 'Tangerine', cursive;
 
 Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
-*/
+######### RESOURCES END ################## */
 
 * {
     margin: 0;
@@ -28,7 +28,7 @@ html {
 /* ######### NAVIGATION ################## */
 
 nav {
-    margin: 5vh 5vw 0 80vw;
+    margin: 3% 3% 0 80%;
 }
 
 nav img {
@@ -43,7 +43,7 @@ nav p {
     font-weight: 600;
     letter-spacing: 2px;
     color: #efefef;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2%;
     border-bottom: 2px solid #e7bc0e;
 }
@@ -80,7 +80,7 @@ header {
 .section1 p {
     font-family: 'Tangerine', cursive;
     font-weight: 700;
-    letter-spacing: -5px;
+    letter-spacing: -2px;
     font-size: 5rem;
     font-style: italic;
     color: #e7bc0e;
@@ -224,17 +224,17 @@ footer {
     font-family: 'Roboto', sans-serif;
     font-size: 6rem;
     background-color: #000;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
+    border-radius: 3px;
     color: #fff;
     text-decoration: none;
-    padding: 3% 5%;
+    padding: 2% 4%;
     margin: 0 0 30% 0;
 }
 
 .footer_sec2 p:nth-of-type(1) a:hover {
-    color: #6bc1a3;
-    border: 2px solid #6bc1a3;
-    box-shadow: 1px 1px 2px;
+    color: #fff;
+    box-shadow: 1rem 1rem 1px;
 }
 
 .footer_sec2 p:nth-of-type(2) {
@@ -251,5 +251,5 @@ footer {
 }
 
 .footer_sec2 p:nth-of-type(2) a:nth-of-type(1):hover {
-    color: #e7bc0e;
+    text-decoration: underline;
 }
