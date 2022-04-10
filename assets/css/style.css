@@ -5,9 +5,8 @@
     src: url('../fonts/Santio_bold.otf') format("opentype");
 }
 
-/* ######### RESOURCES START ################## 
-Font: Santio bold, Roboto, Tangerine
-
+/* ######### RESOURCES START ##################
+font-family: 'Santio bold', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Tangerine', cursive;
 
@@ -87,11 +86,18 @@ header {
     margin: 0 0 250% 0;
 }
 
-/* ######### HEADER SECTION 2 ################## */
+/* ######### SECTION SUMMARY ######################### */
 
-.section2 {
+.section_pos {
     margin: 0 15% 0 15%;
 }
+
+.section_img img {
+    width: 20%;
+    margin: 0 0 8% 0;
+}
+
+/* ######### SECTION 2 ################## */
 
 .section2 p {
     color: #6bc1a3;
@@ -104,7 +110,7 @@ header {
 span {
     color: #fff;
     background-color: #29272A;
-    padding: 0.6% 0.6%;
+    padding: 0.4% 0.4%;
 }
 
 .section2 span:nth-of-type(2) {
@@ -112,16 +118,10 @@ span {
     background-color: #29272A;
 }
 
-/* ######### HEADER SECTION 3 ################## */
+/* ######### SECTION 3 ################## */
 
 .section3 {
-    margin: 0 15% 0 15%;
     color: #e7bc0e;
-}
-
-.section3 div img {
-    width: 20%;
-    margin: 0 0 8% 0;
 }
 
 .section3 h1 {
@@ -133,16 +133,10 @@ span {
     margin: 0 0 35% 0;
 }
 
-/* ######### HEADER SECTION 4 ################## */
+/* ######### SECTION 4 ################## */
 
 .section4 {
-    margin: 0 15% 0 15%;
     color: #cb91b6;
-}
-
-.section4 div img {
-    width: 20%;
-    margin: 0 0 8% 0;
 }
 
 .section4 h2 {
@@ -155,16 +149,10 @@ span {
     margin: 0 0 25% 0;
 }
 
-/* ######### HEADER SECTION 5 ################## */
+/* ######### SECTION 5 ################## */
 
 .section5 {
-    margin: 0 15% 0 15%;
     color: #6bc1a3;
-}
-
-.section5 div img {
-    width: 20%;
-    margin: 0 0 8% 0;
 }
 
 .section5 h1 {
@@ -176,7 +164,7 @@ span {
     margin: 0 0 20% 0;
 }
 
-/* ######### HEADER SECTION 6 ################## */
+/* ######### SECTION 6 ################## */
 
 .section6 p {
     color: #7eb8e1;
